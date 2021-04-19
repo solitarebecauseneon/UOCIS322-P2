@@ -33,7 +33,7 @@ NOTE: Make sure to specify a free port here.
 
 * Update your name and email in the `Dockerfile`.
 
-* You will submit your credentials.ini in canvas. It should have information on how we should get your `Dockerfile` and your git repo. Follow the same structure you found in previous projects when creating the credentials file.
+* You will submit your credentials.ini in Canvas. It should include your name and repo URL.
 
 ## Grading Rubric
 * If your code works as expected: 100 points.
