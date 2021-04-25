@@ -8,11 +8,11 @@ app = Flask(__name__)
 
 forbidden = ['..', '~', '//']
 @app.errorhandler(404)
-def not_found_404():
+def not_found_404(e):
     return render_template('404.html')
 
 @app.errorhandler(403)
-def forbidden_403():
+def forbidden_403(e):
     return render_template('403.html')
 
 @app.route('/')
